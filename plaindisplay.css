@@ -285,6 +285,10 @@
 	#menu li.active span {
 	    color: #FFF;
 	}
+	#menu .current_page_item {
+		font: normal normal bold;
+		color: #009E2D;
+	}
 	#menu .current_page_item a {
 	    background: #009E2D;
 	    color: #FFF;
