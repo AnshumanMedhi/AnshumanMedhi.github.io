@@ -346,6 +346,8 @@
 	    background-color: rgba(140, 140, 140, 0.6);
 	    margin-left: 4em;
 	    padding-left: 1em;
+	    padding-top: 1em;
+	    padding-bottom: 0.2em;
 	    color: #000;
 	}
 	#guide li {
@@ -353,9 +355,9 @@
 	    margin-bottom: 1em;
 	}
 	#guide hr {
-	    height: 1em;
+	    height: 0.5em;
 	    border: 0;
-	    background-color: #333333;
+	    background-color: rgba(0, 158, 24, 0.8);
 	}
 	/*********************************************************************************/
 	/* Content                                                                       */
