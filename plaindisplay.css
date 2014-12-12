@@ -1,5 +1,4 @@
-	html,
-	body {
+	html, body {
 	    height: 100%;
 	}
 	body {
@@ -11,21 +10,16 @@
 	    font-weight: 300;
 	    color: #656565;
 	}
-	h1,
-	h2,
-	h3 {
+	h1, h2, h3 {
 	    margin: 0;
 	    padding: 0;
 	    font-weight: 700;
 	    color: #2B3F48;
 	}
-	p,
-	ol,
-	ul {
+	p, ol, ul {
 	    margin-top: 0;
 	}
-	ol,
-	ul {
+	ol, ul {
 	    padding: 0;
 	    list-style: circle;
 	}
@@ -54,6 +48,7 @@
 	/*********************************************************************************/
 	/* Image Style                                                                   */
 	/*********************************************************************************/
+	
 	.image {
 	    display: inline-block;
 	}
@@ -81,6 +76,7 @@
 	/*********************************************************************************/
 	/* List Styles                                                                   */
 	/*********************************************************************************/
+	
 	ul.staff {
 	    margin-bottom: 3em;
 	    margin-bottom: 3em;
@@ -95,6 +91,7 @@
 	/*********************************************************************************/
 	/* Social Icon Styles                                                            */
 	/*********************************************************************************/
+	
 	ul.contact {
 	    margin: 0;
 	    padding: 2em 0em 0em 0em;
@@ -141,6 +138,7 @@
 	/*********************************************************************************/
 	/* Button Style                                                                  */
 	/*********************************************************************************/
+	
 	.button {
 	    display: inline-block;
 	    padding: 0em 3em;
@@ -167,6 +165,7 @@
 	/*********************************************************************************/
 	/* Heading Titles                                                                */
 	/*********************************************************************************/
+	
 	.title {
 	    margin-bottom: 3em;
 	}
@@ -181,16 +180,11 @@
 	/*********************************************************************************/
 	/* 4-column                                                                      */
 	/*********************************************************************************/
-	.box1,
-	.box2,
-	.box3,
-	.box4 {
+	
+	.box1, .box2, .box3, .box4 {
 	    width: 235px;
 	}
-	.box1,
-	.box2,
-	.box3,
-	{
+	.box1, .box2, .box3, {
 	    float: left;
 	    margin-right: 20px;
 	}
@@ -200,13 +194,11 @@
 	/*********************************************************************************/
 	/* 3-column                                                                      */
 	/*********************************************************************************/
-	.boxA,
-	.boxB,
-	.boxC {
+	
+	.boxA, .boxB, .boxC {
 	    width: 320px;
 	}
-	.boxA,
-	.boxB {
+	.boxA, .boxB {
 	    float: left;
 	    margin-right: 20px;
 	}
@@ -216,8 +208,8 @@
 	/*********************************************************************************/
 	/* 2-column                                                                      */
 	/*********************************************************************************/
-	.tbox1,
-	.tbox2 {
+	
+	.tbox1, .tbox2 {
 	    width: 575px;
 	}
 	.tbox1 {
@@ -232,8 +224,11 @@
 	/*********************************************************************************/
 	/* Header                                                                        */
 	/*********************************************************************************/
+	
 	#header-wrapper {
-	    background: #333333;
+	    background: linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px, linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px, linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px, linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px, linear-gradient(90deg, #1b1b1b 10px, transparent 10px), linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+	    background-color: #131313;
+	    background-size: 20px 20px;
 	}
 	#header {
 	    position: relative;
@@ -242,6 +237,7 @@
 	/*********************************************************************************/
 	/* Logo                                                                          */
 	/*********************************************************************************/
+	
 	#logo {
 	    position: absolute;
 	    top: 1em;
@@ -258,6 +254,7 @@
 	/*********************************************************************************/
 	/* Menu                                                                          */
 	/*********************************************************************************/
+	
 	#menu {
 	    position: absolute;
 	    top: 2em;
@@ -271,8 +268,7 @@
 	    float: left;
 	    text-align: center;
 	}
-	#menu li a,
-	#menu li span {
+	#menu li a, #menu li span {
 	    padding: 1em 1.5em;
 	    letter-spacing: 1px;
 	    text-decoration: none;
@@ -280,14 +276,12 @@
 	    font-size: 0.8em;
 	    color: #FFF;
 	}
-	#menu li:hover a,
-	#menu li.active a,
-	#menu li.active span {
+	#menu li:hover a, #menu li.active a, #menu li.active span {
 	    color: #FFF;
 	}
 	#menu .current_page_item {
-		font: normal normal bold;
-		color: #009E2D;
+	    font: normal normal bold;
+	    color: #009E2D;
 	}
 	#menu .current_page_item a {
 	    background: #009E2D;
@@ -297,13 +291,21 @@
 	/*********************************************************************************/
 	/* Banner                                                                        */
 	/*********************************************************************************/
+	
 	#banner {
 	    overflow: hidden;
 	    padding: 7em 0em 5em 0em;
-	    background: #202020;
 	    background-size: cover;
 	    text-align: center;
+	    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 	    color: rgba(255, 255, 255, .8);
+	    background: radial-gradient(rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, .15) 30%, rgba(255, 255, 255, .3) 32%, rgba(255, 255, 255, 0) 33%) 0 0, radial-gradient(rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, .1) 11%, rgba(255, 255, 255, .3) 13%, rgba(255, 255, 255, 0) 14%) 0 0, radial-gradient(rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, .2) 17%, rgba(255, 255, 255, .43) 19%, rgba(255, 255, 255, 0) 20%) 0 110px, radial-gradient(rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, .2) 11%, rgba(255, 255, 255, .4) 13%, rgba(255, 255, 255, 0) 14%) -130px -170px, radial-gradient(rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, .2) 11%, rgba(255, 255, 255, .4) 13%, rgba(255, 255, 255, 0) 14%) 130px 370px, radial-gradient(rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, .1) 11%, rgba(255, 255, 255, .2) 13%, rgba(255, 255, 255, 0) 14%) 0 0, linear-gradient(45deg, #343702 0%, #184500 20%, #187546 30%, #006782 40%, #0b1284 50%, #760ea1 60%, #83096e 70%, #840b2a 80%, #b13e12 90%, #e27412 100%);
+	    background-size: 470px 470px, 970px 970px, 410px 410px, 610px 610px, 530px 530px, 730px 730px, 100% 100%;
+	    background-color: #840b2a;
+	    /*background-color: #556;
+	    background-image: linear-gradient(30deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445), linear-gradient(150deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445), linear-gradient(30deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445), linear-gradient(150deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445), linear-gradient(60deg, #99a 25%, transparent 25.5%, transparent 75%, #99a 75%, #99a), linear-gradient(60deg, #99a 25%, transparent 25.5%, transparent 75%, #99a 75%, #99a);
+	    background-size: 80px 140px;
+	    background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;*/
 	}
 	#banner .title {
 	    margin-bottom: 1em;
@@ -322,6 +324,7 @@
 	/*********************************************************************************/
 	/* Page                                                                          */
 	/*********************************************************************************/
+	
 	#page {
 	    padding: 5em 0em;
 	    text-align: center;
@@ -335,6 +338,7 @@
 	/*********************************************************************************/
 	/* Guide                                                                          */
 	/*********************************************************************************/
+	
 	#guide {
 	    padding: 5em 0em;
 	    text-align: left;
@@ -366,18 +370,22 @@
 	/*********************************************************************************/
 	/* Content                                                                       */
 	/*********************************************************************************/
+	
 	#content {}
 	/*********************************************************************************/
 	/* Sidebar                                                                       */
 	/*********************************************************************************/
+	
 	#sidebar {}
 	/*********************************************************************************/
 	/* Footer                                                                        */
 	/*********************************************************************************/
+	
 	#footer {}
 	/*********************************************************************************/
 	/* Copyright                                                                     */
 	/*********************************************************************************/
+	
 	#copyright {
 	    overflow: hidden;
 	    padding: 5em 0em;
@@ -395,12 +403,15 @@
 	/*********************************************************************************/
 	/* Featured                                                                      */
 	/*********************************************************************************/
+	
 	#featured {
 	    overflow: hidden;
 	    padding: 5em 0em;
-	    background: #009E2D;
 	    color: rgba(255, 255, 255, .8);
 	    text-align: center;
+	    background: radial-gradient(black 15%, transparent 16%) 0 0, radial-gradient(black 15%, transparent 16%) 8px 8px, radial-gradient(rgba(255, 255, 255, .1) 15%, transparent 20%) 0 1px, radial-gradient(rgba(255, 255, 255, .1) 15%, transparent 20%) 8px 9px;
+	    background-color: #282828;
+	    background-size: 16px 16px;
 	}
 	#featured a {
 	    color: rgba(255, 255, 255, 1);
@@ -410,6 +421,10 @@
 	    margin-top: 3em;
 	    font-size: 1em;
 	    color: #009E2D;
+	    font-weight: bold;
+	}
+	#featured p {
+		font-size: 18px;
 	}
 	#featured .title {} #featured .title h2 {
 	    color: #FFF;
@@ -420,6 +435,7 @@
 	/*********************************************************************************/
 	/* Featured                                                                      */
 	/*********************************************************************************/
+	
 	.box {
 	    padding: 3em 2em 2em 2em;
 	    border: 1px solid rgba(0, 0, 0, 0.1);
@@ -447,4 +463,3 @@
 	    border: 1em solid rgba(255, 255, 255, .6);
 	    list-style: circle;
 	}
-	
