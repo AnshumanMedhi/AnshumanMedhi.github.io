@@ -48,8 +48,8 @@
 	}
 	hr {
 	    height: 1em;
-	    color: rgba(150, 150, 150, 0.6);
-	    background-color: rgba(150, 150, 150, 0.6);
+	    border: 0;
+	    background-color: #009E2D;
 	}
 	/*********************************************************************************/
 	/* Image Style                                                                   */
@@ -341,12 +341,21 @@
 	    display: inline-block;
 	    text-align: center;
 	}
-	#guide .list {
+	#guide ul {
 	    list-style: circle;
 	    background-color: rgba(140, 140, 140, 0.6);
 	    margin-left: 4em;
 	    padding-left: 1em;
 	    color: #000;
+	}
+	#guide li {
+	    margin-left: 1em;
+	    margin-bottom: 1em;
+	}
+	#guide hr {
+	    height: 1em;
+	    border: 0;
+	    background-color: #333333;
 	}
 	/*********************************************************************************/
 	/* Content                                                                       */
