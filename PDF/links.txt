@@ -1,0 +1,12 @@
+http://www.c4learn.com/
+http://www.codecademy.com/
+http://stackoverflow.com/questions/3088/best-ways-to-teach-a-beginner-to-program
+http://www.afterhoursprogramming.com/
+http://www.learncs.org/
+
+https://www.python.org/about/gettingstarted/
+http://learnyouahaskell.com/chapters
+http://pages.cs.wisc.edu/~cs302-1/?r=courseMain
+http://doc.rust-lang.org
+http://tour.golang.org/
+http://groovy.codehaus.org/User+Guide
