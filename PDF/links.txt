@@ -10,3 +10,4 @@ http://pages.cs.wisc.edu/~cs302-1/?r=courseMain
 http://doc.rust-lang.org
 http://tour.golang.org/
 http://groovy.codehaus.org/User+Guide
+http://thelinell.com/2014/12/23/curated-git-links-of-2014/
