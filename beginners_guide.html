@@ -12,14 +12,14 @@
     <meta name="description" content="" />
     <meta name="keywords" content="" />
     <!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/skel.min.js"></script>
-    <script src="js/skel-layers.min.js"></script>
-    <script src="js/init.js"></script>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/skel.min.js"></script>
+    <script src="./js/skel-layers.min.js"></script>
+    <script src="./js/init.js"></script>
     <noscript>
-        <link rel="stylesheet" href="css/skel.css" />
-        <link rel="stylesheet" href="css/style.css" />
-        <link rel="stylesheet" href="css/style-xlarge.css" />
+        <link rel="stylesheet" href="./css/skel.css" />
+        <link rel="stylesheet" href="./css/style.css" />
+        <link rel="stylesheet" href="./css/style-xlarge.css" />
     </noscript>
 </head>
 
@@ -29,13 +29,13 @@
         <h1>Anshuman Medhi</h1>
         <nav id="nav">
             <ul>
-                <li><a href="/index.html" class="button special">Home</a>
+                <li><a href="./index.html" class="button special">Home</a>
                 </li>
-                <li><a href="/index.html#stuffandthings">Stuff And Things</a>
+                <li><a href="./index.html#stuffandthings">Stuff And Things</a>
                 </li>
-                <li><a href="/index.html#aboutme">About Me</a>
+                <li><a href="./index.html#aboutme">About Me</a>
                 </li>
-                <li><a href="/programming.html"><i>Programming</i></a>
+                <li><a href="./programming.html"><i>Programming</i></a>
                 </li>
                 <li><i><b>Beginners Guide</b></i>
                 </li>
@@ -64,8 +64,8 @@
             </section>
             <hr />
             <section>
-                <h2>Lets Get Started!...</h2>
-                <h3>Not so quickly young one, we have to get our tools and environment setup</h3>
+                <h2>Lets Get Started!</h2>
+                <h3>... Not so quickly young one, we have to get our tools and environment setup</h3>
                 <p>Before anything else, you need something to write programs in, I recommend <strong>Sublime Text</strong>, very simple and clean, with lots of plugins which allow you to integrate it with many progamming language and tools.</p>
                 <p>After you download and install <a href="http://http://www.sublimetext.com/3" title="Sublime Text 3">Sublime Text</a>, the first thing you want to do is install Package Control, which allows you to easily install plugins: Follow the instructions on <a href="https://sublime.wbond.net/installation" title="Install Package Control">this page</a> to install it, then start installing other packages.</p>
                 <ul>
@@ -92,7 +92,7 @@
                 <h2>Now can we start learning?</h2>
                 <h3>Yes little grasshopper, now we shall start creating</h3>
                 <h4><i>'today! we become gods!'</i></h4>
-                <p>This is a good book: <a href="http://marine.rutgers.edu/~nstrands/Learn%20to%20Program,%202nd%20Edition.pdf" title="LearnToProgram">LearnToProgram
+                <p>This is a good book: <a href="./PDF/Learn%20to%20Program,%202nd%20Edition.pdf" title="LearnToProgram">LearnToProgram
 </a>. It teaches programming from the complete basics using Ruby.</p>
                 <ul>
                     <li>Make sure you take your time and absorb all the information, follow the book, try out the examples, <em>Play With The IRB</em>, it is very useful for learning and experimenting</li>
@@ -100,6 +100,7 @@
                 <p><a href="http://stackoverflow.com" title="Stack Overflow">StackOverflow</a>, unanimously one of the best resources for developers, a forum for develops to ask questions and get answers from others, if you have a problem/question, chances are StackOverflow has the solution/answer.</p>
                 <p>That book is very good for beginners, but once you're more comfortable with programming, you can start reading other books which teach more advanced concepts. Such as:</p>
                 <ul>
+                    <li><a href="http://readwrite.com/2011/04/08/10-free-e-books-on-ruby-for-be">More Ebooks</a></li>
                     <li><a href="http://mislav.uniqpath.com/poignant-guide/book/">The Poignant Guide</a>
                     </li>
                     <li><a href="http://www.learneroo.com/modules/61/nodes/337">Ruby Programming Examples</a>
@@ -114,6 +115,16 @@
                 <h3>I've Done Everything You Asked For!</h3>
                 <h4>Now, Little Grasshopper... You are on your own...</h4>
                 <p>After you have complete the book, pick up small projects and try to program it, a simple google search will give you many ideas. If you ever get stuck consult the book, if you still dont know use StackOverflow. Experiental learning is one of the best ways to learn programming, so make sure you get alot of experience - <a href="http://www.rubeque.com/">Programming Practice</a>
+                </p>
+                <p>
+                    <li><a href="http://www.c4learn.com/">C4Learn</a></li>
+                    <li><a href="http://www.codecademy.com/">Codeacademy</a></li>
+                    <li><a href="http://stackoverflow.com/questions/3088/best-ways-to-teach-a-beginner-to-program">Stackoverflow</a></li>
+                    <li><a href="http://www.afterhoursprogramming.com/">After Hours Programming</a></li>
+                    <li><a href="https://www.youtube.com/user/derekbanas/videos">Derek Banas Youtube</a></li>
+                    <li><a href="http://www.reddit.com/r/learnprogramming">Reddit /r/learnprogramming</a></li>
+                    <li><a href="https://github.com/Michael0x2a/curated-programming-resources/blob/master/resources.md">Programming Resources</a></li>
+                    <li><a href="http://hackr.io/">Hackr.io</a></li>
                 </p>
             </section>
             <hr class="major" />
@@ -175,14 +186,20 @@
                             <li>
                                 My Recommendations (Research &amp; Use Your Own Judgement)
                                 <ul>
-                                    <li>Java/C# - For a full-featured, safe Programming Languages (C# &gt; Java in features and quality, but Java &gt; C# in Jobs <em>shurgs</em>)</li>
-                                    <li>Go - New language with very promising features, designed for simplicity for Programmers</li>
                                     <li>
-                                        Rust - A low-level language, Fast yet Safe, complicated but along with C/C++ worth learning for High-Performance programs, especially in Game-Development
+                                        <a href="http://javaandme.com/">Java</a>/<a href="http://www.learncs.org/">c#</a> - For a full-featured, safe Programming Languages 
+                                        (C# &gt; Java in features and quality, but Java &gt; C# in Jobs <em>shurgs</em>) 
+                                        <a href="./PDF/Introduction to Java Programming, Comprehensive Version, 10th Edition- Y. Daniel Liang.pdf">(Java Introduction)</a>
                                     </li>
-                                    <li>Haskell - A Pure Functional Programming Language, Safe but Fast, very interesting but different, impractical for now, but good to learn</li>
+                                    <li><a href="http://tour.golang.org/">Go</a> - New language with very promising features, designed for simplicity for Programmers</li>
+                                    <li>
+                                        <a href="http://doc.rust-lang.org/">Rust</a> - A low-level language, Fast yet Safe, complicated but along with C/C++ worth learning for High-Performance programs, especially in Game-Development
+                                    </li>
+                                    <li><a href="http://learnyouahaskell.com/chapters/">Haskell</a> - A Pure Functional Programming Language, Safe but Fast, very interesting but different, impractical for now, but good to learn</li>
                                     <li>F# - A Multi-Paradigm Programming Languages, lots of features, very powerful</li>
                                     <li>C/C++ - Very low-level, frustrating, unsafe but very close to the computer, good if you want to learn how computer work, or want very fast code (but Rust is competitive with C at speed so doesnt matter)</li>
+                                    <li><a href="http://readwrite.com/2011/03/25/python-is-an-increasingly-popu">Python</a> - High Level, easy-to-learn and easy-to-use scripting language (<a href="./PDF/Learn Python The Hard Way 3rd Edition V413HAV.pdf">Learn the Hard Way</a>)</li>
+                                    <li><a href="http://readwrite.com/2010/12/04/6-free-javascript-e-books">Javascript</a> - The One and Only Programming Language for the Web, Interactive websites, Web apps etc.</li>
                                 </ul>
                             </li>
                         </ul>
@@ -237,11 +254,11 @@
                     <div class="6u">
                         <h3>Pages</h3>
                         <ul class="alt">
-                            <li><a href="/programming.html">Programming</a>
+                            <li><a href="./programming.html">Programming</a>
                             </li>
-                            <li><a href="/science.html">Science</a>
+                            <li><a href="./science.html">Science</a>
                             </li>
-                            <li><a href="/entertainment.html">Entertainment</a>
+                            <li><a href="./entertainment.html">Entertainment</a>
                             </li>
                         </ul>
                     </div>
