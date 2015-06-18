@@ -943,3 +943,18 @@ input[type="button"]:disabled,
 #footer .icons a {
     color: #bbb;
 }
+
+.rndbrdr {
+    border-radius: 25px;
+    margin: 10px;
+    border: 2px solid #629DD1;
+    /*outline: 2px solid #629DD1;*/
+    padding: 20px;
+    /*width: 200px;*/
+    /*height: 150px; */
+}
+
+.rndbrdr.minor {
+    border-radius: 10px;
+    border: 1px solid #629DD1;
+}
